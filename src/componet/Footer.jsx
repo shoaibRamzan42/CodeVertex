@@ -5,7 +5,7 @@ import { Link} from "react-router-dom";
 export const Footer = () => {
     return (
 <footer>
-      <div className="py-12 bg-[#F5F4F4] md:py-16">
+      <div className="py-12 font-custom bg-[#F5F4F4] md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
           {/* Top area: Blocks */}
@@ -16,7 +16,7 @@ export const Footer = () => {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Cruip">
-              <img src={cLogo} alt="logo"  />
+              <img src={cLogo} className="max-w-[70%]" alt="logo"  />
                 </Link>
               </div>
               <div className="text-[#152330]/50">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
@@ -27,7 +27,7 @@ export const Footer = () => {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-medium mb-1">Products</h6>
+                <h6 className="text-[#1A202C] font-semibold mb-1">Products</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Web Studio</Link>
@@ -43,7 +43,7 @@ export const Footer = () => {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-medium mb-1">Resources</h6>
+                <h6 className="text-[#1A202C] font-semibold mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Nostrud exercitation</Link>
@@ -65,7 +65,7 @@ export const Footer = () => {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-medium mb-1">Company</h6>
+                <h6 className="text-[#1A202C] font-semibold mb-1">Company</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Consectetur adipiscing</Link>

@@ -26,8 +26,8 @@ const ScCard=()=>{
       
       <div id="portfolio" className="flex bg-[#F5F4F4] overflow-scroll no-scrollbar w-full justify-between items-center "  >
       <Carousel    transition={{ duration: 1 }}
-        // autoplay={{ delay: 2000 }} 
-  className="rounded-xl"
+        autoplay={{ delay: 2000, reverseDirection: false, loop: true }}
+          className="rounded-xl"
   navigation={({ setActiveIndex, activeIndex, length }) => (
     <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-50 flex gap-2">
       {Array.from({ length }).map((_, i) => (
