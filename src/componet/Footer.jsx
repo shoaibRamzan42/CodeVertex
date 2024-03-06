@@ -1,132 +1,146 @@
 import React from "react";
 import cLogo from '../assets/code.png'
+import { Link} from "react-router-dom";
 
 export const Footer = () => {
     return (
-      <div className="px-4 pt-16  bg-[#f5f4f4] sm:max-w-full md:max-w-full lg:w-full md:px-24 lg:px-8">
-        <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="sm:col-span-2">
-            <img className="max-w-[40%]" src={cLogo} alt="logo"/>
-            <div className="mt-6 lg:max-w-sm">
-              <p className="text-sm text-gray-800">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
-              </p>
-              <p className="mt-4 text-sm text-gray-800">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </p>
+<footer>
+      <div className="py-12 bg-[#F5F4F4] md:py-16">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+
+          {/* Top area: Blocks */}
+          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
+
+            {/* 1st block */}
+            <div className="md:col-span-4 lg:col-span-5">
+              <div className="mb-2">
+                {/* Logo */}
+                <Link href="/" className="inline-block" aria-label="Cruip">
+              <img src={cLogo} alt="logo"  />
+                </Link>
+              </div>
+              <div className="text-[#152330]/50">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
             </div>
+
+            {/* 2nd, 3rd and 4th blocks */}
+            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
+
+              {/* 2nd block */}
+              <div className="text-sm">
+                <h6 className="text-[#1A202C] font-medium mb-1">Products</h6>
+                <ul>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Web Studio</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Programming Forms</Link>
+                  </li>
+                </ul>
+              </div>
+
+              {/* 3rd block */}
+              <div className="text-sm">
+                <h6 className="text-[#1A202C] font-medium mb-1">Resources</h6>
+                <ul>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Visual mockups</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Visual mockups</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                  </li>
+                </ul>
+              </div>
+
+              {/* 4th block */}
+              <div className="text-sm">
+                <h6 className="text-[#1A202C] font-medium mb-1">Company</h6>
+                <ul>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Labore et dolore</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Labore et dolore</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
           </div>
-          <div className="space-y-2 text-sm">
-            <p className="text-base font-bold tracking-wide text-gray-900">
-              Contacts
-            </p>
-            <div className="flex">
-              <p className="mr-1 text-gray-800">Phone:</p>
-              <a
-                href="tel:850-123-5021"
-                aria-label="Our phone"
-                title="Our phone"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                850-123-5021
-              </a>
-            </div>
-            <div className="flex">
-              <p className="mr-1 text-gray-800">Email:</p>
-              <a
-                href="mailto:info@lorem.mail"
-                aria-label="Our email"
-                title="Our email"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                info@lorem.mail
-              </a>
-            </div>
-            <div className="flex">
-              <p className="mr-1 text-gray-800">Address:</p>
-              <a
-                href="https://www.google.com/maps"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Our address"
-                title="Our address"
-                className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                312 Lovely Street, NY
-              </a>
-            </div>
+
+          {/* Bottom area */}
+          <div className="md:flex md:items-center md:justify-between">
+
+            {/* Social links */}
+            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+              <li>
+                <Link href="/" className="flex justify-center items-center text-white bg-gray-800 hover:text-gray-100 hover:bg-[#152330] rounded-full transition duration-150 ease-in-out" aria-label="Twitter">
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
+                  </svg>
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link href="/" className="flex justify-center items-center text-white bg-gray-800 hover:text-gray-100 hover:bg-[#152330] rounded-full transition duration-150 ease-in-out" aria-label="Github">
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
+                  </svg>
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link href="/" className="flex justify-center items-center text-white bg-gray-800 hover:text-gray-100 hover:bg-[#152330] rounded-full transition duration-150 ease-in-out" aria-label="Facebook">
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
+                  </svg>
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link href="/" className="flex justify-center items-center text-white bg-gray-800 hover:text-gray-100 hover:bg-[#152330] rounded-full transition duration-150 ease-in-out" aria-label="Instagram">
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20.145" cy="11.892" r="1" />
+                    <path d="M16 20c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" />
+                    <path d="M20 24h-8c-2.056 0-4-1.944-4-4v-8c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zm-8-14c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2v-8c0-.935-1.065-2-2-2h-8z" />
+                  </svg>
+                </Link>
+              </li>
+              <li className="ml-4">
+                <Link href="/" className="flex justify-center items-center text-white bg-gray-800 hover:text-gray-100 hover:bg-[#152330] rounded-full transition duration-150 ease-in-out" aria-label="Linkedin">
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z" />
+                  </svg>
+                </Link>
+              </li>
+            </ul>
+
+            {/* Copyrights note */}
+            <div className="text-[#152330]/50 text-sm mr-4">&copy; Codevertex.com. All rights reserved.</div>
+
           </div>
-          <div>
-            <span className="text-base font-bold tracking-wide text-gray-900">
-              Social
-            </span>
-            <div className="flex items-center mt-1 space-x-3">
-              <a
-                href="/"
-                className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
-                  <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                </svg>
-              </a>
-              <a
-                href="/"
-                className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
-                  <circle cx="15" cy="15" r="4" />
-                  <path d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10   C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1   c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z" />
-                </svg>
-              </a>
-              <a
-                href="/"
-                className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
-                  <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                </svg>
-              </a>
-            </div>
-            <p className="mt-4 text-sm text-gray-500">
-              Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-              spare ribs salami.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-          <p className="text-sm text-gray-600">
-            © Copyright 2020 Lorem Inc. All rights reserved.
-          </p>
-          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-            <li>
-              <a
-                href="/"
-                className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                F.A.Q
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-              >
-                Terms &amp; Conditions
-              </a>
-            </li>
-          </ul>
+
         </div>
       </div>
+    </footer>
     );
   };
   export default Footer;
