@@ -44,53 +44,53 @@ export const Footer = () => {
                   <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Metaverse/Crypto</Link>
                   </li>
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Web3 Development</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-semibold mb-1">Resources</h6>
+                <h6 className="text-[#1A202C] font-semibold mb-1">Important links</h6>
                 <ul>
                   <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">About us</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Hire</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Services</Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">How it Works</Link>
+                  </li>
+                  {/* <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Nostrud exercitation</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Visual mockups</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Nostrud exercitation</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Visual mockups</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Nostrud exercitation</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-semibold mb-1">Company</h6>
+                <h6 className="text-[#1A202C] font-semibold mb-1">Company Location</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link href="/" className="text-[#152330]/50 flex items-center hover:text-[#5287b9] transition duration-150 ease-in-out">Pakistan <img className="w-8 h-5" src="https://image.similarpng.com/very-thumbnail/2020/06/Pakistan-flag-icon-on-transparent-background-PNG.png" alt="pic" /></Link>
                   </li>
                   <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 flex items-center hover:text-[#5287b9] transition duration-150 ease-in-out">Bangladesh <img className="w-8 h-8" src="https://cdn-icons-png.flaticon.com/512/3973/3973498.png" alt="pic" /> </Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link href="/" className="text-[#152330]/50 flex items-center hover:text-[#5287b9] transition duration-150 ease-in-out">Malaysia <img className="w-8 h-6" src="https://www.freeiconspng.com/uploads/malaysia-flags-icon-png-25.png" alt="pic" /></Link>
+                  </li>
+                  {/* <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
+                  </li> */}
+                  {/* <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
