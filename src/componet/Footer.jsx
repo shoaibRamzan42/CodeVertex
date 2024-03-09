@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
 <footer>
       <div className="py-12 font-custom bg-[#F5F4F4] md:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
           {/* Top area: Blocks */}
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
@@ -16,7 +16,7 @@ export const Footer = () => {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Cruip">
-              <img src={cLogo} className="max-w-[70%]" alt="logo"  />
+              <img src={cLogo} className="md:max-w-[70%] max-w-[55%]" alt="logo"  />
                 </Link>
               </div>
               <div className="text-[#152330]/50">We are a consortium of adept developers, skilled technical professionals, and visionary strategists devoted to delivering flawless products.</div>
