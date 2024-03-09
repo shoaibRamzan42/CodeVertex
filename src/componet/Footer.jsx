@@ -27,7 +27,7 @@ export const Footer = () => {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-semibold mb-1">Services</h6>
+                <h6 className="text-[#346899] font-semibold mb-1">Services</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">Web Developlent</Link>
@@ -52,7 +52,7 @@ export const Footer = () => {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-semibold mb-1">Important links</h6>
+                <h6 className="text-[#346899] font-semibold mb-1">Important links</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 hover:text-[#5287b9] transition duration-150 ease-in-out">About us</Link>
@@ -74,7 +74,7 @@ export const Footer = () => {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-[#1A202C] font-semibold mb-1">Company Location</h6>
+                <h6 className="text-[#346899] font-semibold mb-1">Company Location</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-[#152330]/50 flex items-center hover:text-[#5287b9] transition duration-150 ease-in-out">Pakistan <img className="w-8 h-5" src="https://image.similarpng.com/very-thumbnail/2020/06/Pakistan-flag-icon-on-transparent-background-PNG.png" alt="pic" /></Link>
