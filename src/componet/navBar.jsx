@@ -19,7 +19,7 @@ const NavBar = () => {
     
   return (
     <>
-       <nav className="py-6  fixed top-0 w-full  bg-white px-3 z-[5] lg:px-24 md:px-12 flex justify-between items-center shadow-lg">
+       <nav className="py-6  sticky  w-full  bg-white px-3 z-[5] lg:px-24 md:px-12 flex justify-between items-center shadow-lg">
       <img src={cLogo} alt="logo" className="w-[128.49px] h-[38.08px]" />
       <div className="flex md:flex-row flex-col-reverse items-center">
         <ul className={`font-custom w-full h-screen md:h-0 md:static gap-2 bg-[#F5F4F4] absolute top-20 right-0 p-3 md:p-0  text-[#152330] md:bg-transparent md:flex md:flex-row md:gap-4 lg:gap-6 justify-start md:justify-center lg:text-[87%] md:text-[55%] md:text-[#152330] md:leading-[13px] font-semibold transition-m duration-500 ease-in-out ${menuOpen ? 'max-h-screen' : 'hidden'}`}>
