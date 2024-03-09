@@ -91,7 +91,7 @@ const NavBar = () => {
           </svg>
         </IconButton>
       </div>
-      <button className={`hidden md:block duration-300 hover:shadow-lg bg-gradient-to-tr from-[#0CB691] to-[#4A4A99] font-custom font-semibold text-[#FAFAFA] py-3 md:py-4 px-4 rounded-[5px] text-[12px] md:text-[14px] leading-4 ${menuOpen ? 'block' : 'hidden'}`} onClick={toggleMenu}>
+      <button className={`hidden md:block uppercase duration-300 hover:shadow-lg bg-gradient-to-tr from-[#0CB691] to-[#4A4A99] font-custom font-semibold text-[#FAFAFA] py-3 md:py-4 px-4 rounded-[5px] text-[12px] md:text-[14px] leading-4 ${menuOpen ? 'block' : 'hidden'}`} onClick={toggleMenu}>
         Contact us
       </button>
     </nav>
