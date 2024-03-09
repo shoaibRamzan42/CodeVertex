@@ -4,7 +4,7 @@ import Blogo from "../assets/Blogo.png";
 const Banner = () => {
   return (
     <>
-      <div className="flex flex-col-reverse md:flex-row bg-white lg:px-24 md:px-16 mt-20 md:mt-28  py-6 justify-between  items-center">
+      <div className="flex flex-col-reverse md:flex-row bg-white lg:px-24 md:px-16  md:mt-8  py-6 justify-between  items-center">
         <div className="md:w-[55%] w-[85%] gap-3 font-custom flex flex-col lg:gap-9 md:gap-4 ">
           <h1 className="lg:text-[60px] text-[30px] leading-[41px] md:text-[45px] lg:leading-[71px] md:leading-[56px]   text-[#152330] ">
             Building the <b className=" font-extrabold text-transparent bg-clip-text bg-gradient-to-l from-[#2DA4A2]  to-[#346899]">Future </b>
