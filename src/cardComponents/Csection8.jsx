@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/Image-60.png";
+import image from "../assets/profile5.jpg";
 import insta from "../assets/Instagram - png.png";
 import facebook from "../assets/Facebook - jpeg 0.png";
 import whatsapp from "../assets/WhatsApp - png 0.png";
@@ -22,19 +22,19 @@ const Csection8 = () => {
               Talk To Our Sales Team
             </h1>
             <div className="flex pt-5 gap-4 items-center">
-              <img src={image} />
+              <img className="max-w-[20%] rounded-full" src={image} />
               <div>
                 <h1 className="md:text-[24px] text-[20px] text-[#2DA3A2] leading-[27px] font-custom font-bold ">
-                  Asfand Yarr
+                 Muhammad Arshad 
                 </h1>
                 <h2 className="text-[#949494] text-[16px] leading-[24px] ">
                   Head of Sales
                 </h2>
-                <div className="flex gap-5 pt-3">
+                {/* <div className="flex gap-5 pt-3">
                   <img src={insta} />
                   <img src={facebook} />
                   <img src={whatsapp} />
-                </div>
+                </div> */}
               </div>
             </div>
             <h1 className="font-custom font-bold pt-5 text-[#152330] text-[20px] md:text-[24px] leading[27px] ">

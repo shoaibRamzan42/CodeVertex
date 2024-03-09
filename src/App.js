@@ -28,8 +28,8 @@ function App() {
     <Banner />
     <Section3 />
     <Services />  
-    <ScCard />
-    <Section6 />
+    {/* <ScCard /> */}
+    {/* <Section6 /> */}
     <Section7 />
     <Section8 />
    

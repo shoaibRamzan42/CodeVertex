@@ -22,11 +22,21 @@ const Services = () => {
        <div className="flex flex-wrap justify-center items-center gap-5 ">
       
  
-          <SCard />
-          <SCard />
-          <SCard />  
-          <SCard />
-          <SCard />
+          <SCard
+            head="AI/ML/CV/ChatGPT"
+           para="Automate business operations with our tailor-made AI/ML/ChatGPT solutions to save time, reduce errors and improve efficiency — freeing up your resources to focus on profit-making decisions while enjoying increased accuracy & productivity. " />
+
+          <SCard head="Web Application Development"
+           para="Revolutionize your web presence with our comprehensive approach to scalable product development and continuous post-launch support, ensuring seamless growth and optimal performance throughout."  />
+
+          <SCard head="Mobile App Development"
+           para="Consultation on updating existing mobile applications and development of apps that look and perform great on both iOS and Android."  />  
+
+          <SCard head="Game/Metaverse Development"
+           para="Developing a conceptual game is a maverick's job, and game developers at InvoZone clearly know the art of creating magical products that match your players’ vision and preferences. Are you ready to launch powerful gameplays? "  />
+
+          <SCard head="Blockchain Development"
+           para="Become a part of a trustless and borderless distributed network with InvoBlox’s real-world blockchain consultancy and development services. "  />
         </div>
         </motion.div>
       </div>

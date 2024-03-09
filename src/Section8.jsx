@@ -6,7 +6,7 @@ import Csection8 from "./cardComponents/Csection8";
 const Section8 = () => {
   return (
     <>
-      <div className="lg:px-24 lg:py-24 px-8 md:px-16 py-8 md:py-16 ">
+      <div id="hire" className="lg:px-24 lg:py-24 px-8 md:px-16 py-8 md:py-16 ">
         <div className="bg-[#F5F4F4] flex md:flex-row flex-col justify-center items-center gap-12 md:gap-20  py-8 rounded-[20px] px-4 md:px-8">
           <h1 className="text-[21px] leading-[25px] md:leading-[30px] lg:text-[30px] lg:leading-[43px] text-[#152330] lg:w-[50%] w-[90%] md:w-[60%] font-custom font-bold ">
             Hire the best developers and designers around!

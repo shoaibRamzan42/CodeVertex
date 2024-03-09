@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const Section3 = () => {
   return (
     <> 
-     <div className=" bg-[#F5F4F4] lg:px-24 md:px-16 py-4 md:py-12">
+     <div id="code" className=" bg-[#F5F4F4] lg:px-24 md:px-16 py-4 md:py-12">
       <div className=" flex  flex-col md:gap-16 lg:gap-20 justify-center items-center ">
       <motion.div
   initial={{ x: '100%', opacity: 0 }}
@@ -36,7 +36,7 @@ const Section3 = () => {
               Since
             </p>
             <p className="font-custom lg:text-[36px] text-[16px] md:text-[30px] font-extrabold leading-[39px] text-[#1A202C]">
-              2008
+              2018
             </p>
           </div>
         

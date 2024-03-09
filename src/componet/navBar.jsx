@@ -26,7 +26,7 @@ const NavBar = () => {
           <li className='hover:bg-gray-300 p-2 md:p-0 md:bg-transparent  '>
             <button className="uppercase animate tracking-widest hover:scale-110"  onClick={() => {
                     
-                    const Element = document.getElementById("aboutUs");
+                    const Element = document.getElementById("code");
                     if (Element) {
                       Element.scrollIntoView({ behavior: "smooth" });
                     }
@@ -47,7 +47,7 @@ const NavBar = () => {
               Services
             </button>
           </li>
-          <li className=' hover:bg-gray-300 p-2 md:p-0  md:hover:bg-transparent '>
+          {/* <li className=' hover:bg-gray-300 p-2 md:p-0  md:hover:bg-transparent '>
             <button className="uppercase animate tracking-widest hover:scale-110" onClick={() => {
                     
                     const Element = document.getElementById("portfolio");
@@ -59,17 +59,17 @@ const NavBar = () => {
               >
               Portfolio
             </button>
-          </li>
+          </li> */}
           <li className='hover:bg-gray-300 p-2 md:p-0  md:hover:bg-transparent '>
             <button className="uppercase animate tracking-widest hover:scale-110" onClick={() => {
                     
-                    const Element = document.getElementById("Reconmmendations");
+                    const Element = document.getElementById("hire");
                     if (Element) {
                       Element.scrollIntoView({ behavior: "smooth" });
                     }
                     handleMenuItemClick();
                   }}>
-              Blogs
+              Hire
             </button>
           </li>
           <li className=' hover:bg-gray-300 p-2 md:p-0  md:hover:bg-transparent '>
